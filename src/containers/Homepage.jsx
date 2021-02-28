@@ -12,7 +12,7 @@ let listOfTech = text.tech.techList.map((tech) => {
     )
 } )
 
-const HomePage = () => {
+const HomePage = (props) => {
     console.log(props)
     return (
         <React.Fragment>
